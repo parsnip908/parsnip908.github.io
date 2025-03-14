@@ -1,0 +1,52 @@
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Styling the main heading using an ID */
+#main-heading {
+    color: #333;
+    font-size: 2em;
+}
+
+/* Styling the navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+/* Change link color and add hover effect */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Create a reusable class for sections */
+.content-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Modify box model properties */
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
