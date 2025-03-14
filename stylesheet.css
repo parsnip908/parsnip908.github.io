@@ -13,7 +13,6 @@ body {
     font-size: 2em;
 }
 
-/* Styling the navigation menu */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -24,7 +23,6 @@ nav ul li {
     margin: 10px;
 }
 
-/* Change link color and add hover effect */
 a {
     color: blue;
     text-decoration: none;
@@ -34,7 +32,6 @@ a:hover {
     color: red;
 }
 
-/* Create a reusable class for sections */
 .content-section {
     background-color: white;
     padding: 20px;
@@ -43,7 +40,6 @@ a:hover {
     border-radius: 5px;
 }
 
-/* Modify box model properties */
 img {
     width: 150px;
     height: auto;
